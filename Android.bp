@@ -51,6 +51,9 @@ prebuilt_etc {
         android_arm64: {
             src: "arm64/configs/llndk.libraries.txt",
         },
+        android_riscv64: {
+            src: "riscv64/configs/llndk.libraries.txt",
+        },
         android_x86: {
             src: "x86/configs/llndk.libraries.txt",
         },
@@ -68,6 +71,9 @@ prebuilt_etc {
         },
         android_arm64: {
             src: "arm64/configs/vndksp.libraries.txt",
+        },
+        android_riscv64: {
+            src: "riscv64/configs/vndksp.libraries.txt",
         },
         android_x86: {
             src: "x86/configs/vndksp.libraries.txt",
@@ -87,6 +93,9 @@ prebuilt_etc {
         android_arm64: {
             src: "arm64/configs/vndkcore.libraries.30.txt",
         },
+        android_riscv64: {
+            src: "riscv64/configs/vndkcore.libraries.30.txt",
+        },
         android_x86: {
             src: "x86/configs/vndkcore.libraries.30.txt",
         },
@@ -105,6 +114,9 @@ prebuilt_etc {
         android_arm64: {
             src: "arm64/configs/vndkprivate.libraries.30.txt",
         },
+        android_riscv64: {
+            src: "riscv64/configs/vndkprivate.libraries.30.txt",
+        },
         android_x86: {
             src: "x86/configs/vndkprivate.libraries.30.txt",
         },
@@ -122,6 +134,9 @@ prebuilt_etc {
         },
         android_arm64: {
             src: "arm64/configs/vndkproduct.libraries.txt",
+        },
+        android_riscv64: {
+            src: "riscv64/configs/vndkproduct.libraries.txt",
         },
         android_x86: {
             src: "x86/configs/vndkproduct.libraries.txt",
